@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace sgolemon\CodeKit\Node;
+namespace sgolemon\DecodeKit\Node;
 
 /**
  * Common utility functons used by various visit_ZEND_AST_* methods

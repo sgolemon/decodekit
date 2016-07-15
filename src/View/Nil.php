@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace sgolemon\CodeKit\View;
+namespace sgolemon\DecodeKit\View;
 
 /**
  * Don't actually dissasemble.

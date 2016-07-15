@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
 
-namespace sgolemon\CodeKit\Transform;
+namespace sgolemon\DecodeKit\Transform;
 
 /**
  * Transform code to be PHP 7.0 compatable
  */
-class PHP0700 extends \sgolemon\CodeKit\CodeKit {
+class PHP0700 extends \sgolemon\DecodeKit\DecodeKit {
   protected $visit_as_list = array();
 
   /**

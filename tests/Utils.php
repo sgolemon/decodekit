@@ -1,7 +1,7 @@
 <?php
 
-namespace sgolemon\CodeKit\Tests;
-use sgolemon\CodeKit;
+namespace sgolemon\DecodeKit\Tests;
+use sgolemon\DecodeKit;
 
 trait Utils {
 
@@ -18,7 +18,7 @@ trait Utils {
   }
 
   protected function assertTransform(string $src, string $dest, string $transform, int $kind = -1) {
-    $d = new $transform(new CodeKit\View\Buffer);
+    $d = new $transform(new DecodeKit\View\Buffer);
     $ast = \AstKit::parseString($src);
     $this->assertNotNull($ast);
     $d->visit($ast);
@@ -29,6 +29,6 @@ trait Utils {
   }
 
   protected function assertSameAST(string $str, int $kind) {
-    $this->assertTransform($str, $str, CodeKit\CodeKit::class, $kind);
+    $this->assertTransform($str, $str, DecodeKit\DecodeKit::class, $kind);
   }
 }

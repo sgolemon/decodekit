@@ -1,5 +1,5 @@
 {
-  "name": "sgolemon/codekit",
+  "name": "sgolemon/decodekit",
   "description": "PHP AST disassembler based on astkit",
   "type": "project",
   "keywords": [
@@ -7,7 +7,7 @@
     "transpiler",
     "beautifier"
   ],
-  "homepage": "https://github.com/sgolemon/codekit",
+  "homepage": "https://github.com/sgolemon/decodekit",
   "license": "BSD",
   "authors": [
     {
@@ -19,7 +19,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "sgolemon\\CodeKit\\": "src/"
+      "sgolemon\\DecodeKit\\": "src/"
     }
   },
   "require": {

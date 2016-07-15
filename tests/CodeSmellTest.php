@@ -3,12 +3,12 @@
 require_once __DIR__ . '/../vendor/autoload.php';
 require_once __DIR__ . '/Utils.php';
 
-use sgolemon\CodeKit;
+use sgolemon\DecodeKit;
 
-class CodeKitCodeSmellTest extends PHPUnit_Framework_TestCase {
+class DecodeKitCodeSmellTest extends PHPUnit_Framework_TestCase {
 
   protected static function smell(string $code): bool {
-    $d = new class(new sgolemon\CodeKit\View\Nil) extends sgolemon\CodeKit\CodeKit {
+    $d = new class(new sgolemon\DecodeKit\View\Nil) extends sgolemon\DecodeKit\DecodeKit {
       public $smells = false;
 
       // non-instance means its a zval and thus non-variable

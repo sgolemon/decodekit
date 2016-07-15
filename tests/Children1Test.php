@@ -3,10 +3,10 @@
 require_once __DIR__ . '/../vendor/autoload.php';
 require_once __DIR__ . '/Utils.php';
 
-use sgolemon\CodeKit;
+use sgolemon\DecodeKit;
 
-class CodeKitChildren1Test extends PHPUnit_Framework_TestCase {
-  use sgolemon\CodeKit\Tests\Utils;
+class DecodeKitChildren1Test extends PHPUnit_Framework_TestCase {
+  use sgolemon\DecodeKit\Tests\Utils;
 
   public function testVAR() {
     $this->assertSameAST("\$var;\n", AstKit::ZEND_AST_VAR);

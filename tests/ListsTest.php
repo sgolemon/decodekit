@@ -3,10 +3,10 @@
 require_once __DIR__ . '/../vendor/autoload.php';
 require_once __DIR__ . '/Utils.php';
 
-use sgolemon\CodeKit;
+use sgolemon\DecodeKit;
 
-class CodeKitListsTest extends PHPUnit_Framework_TestCase {
-  use sgolemon\CodeKit\Tests\Utils;
+class DecodeKitListsTest extends PHPUnit_Framework_TestCase {
+  use sgolemon\DecodeKit\Tests\Utils;
 
   public function testARG_LIST() {
     $this->assertSameAST("f(1, 2, 3);\n", AstKit::ZEND_AST_ARG_LIST);

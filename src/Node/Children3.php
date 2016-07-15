@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace sgolemon\CodeKit\Node;
+namespace sgolemon\DecodeKit\Node;
 
 /**
  * AST nodes which have three children

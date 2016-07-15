@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace sgolemon\CodeKit;
+namespace sgolemon\DecodeKit;
 
 /**
  * Controller for AST dissasembly
@@ -11,7 +11,7 @@ namespace sgolemon\CodeKit;
  * Extend this class and override node visitor methods
  * (e.g. vist_ZEND_AST_FUNC_DECL) to alter how function nodes are decoded
  */
-class CodeKit {
+class DecodeKit {
   // The several AST node types are split up into traits
   // to avoid having this file grow out of control
   use Node\Helpers;
